@@ -1,0 +1,12 @@
+<!--pages/index1/index1.wxml-->
+<!-- view 自带换行 -->
+<view>我是view1组件</view>
+<input class="fu" placeholder="please input" maxlength="5" bindinput="getcontent"></input>
+<view>我是view2组件</view>
+<view>我是view3组件</view>
+<!-- text 组件 不会自动换行-->
+<view class="fu">
+  <text class="zi">i am text1</text>
+  <text>i am text2</text>
+  <button type="primary" bindtap="pressbtn">btn</button>
+</view>
